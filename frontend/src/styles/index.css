@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.light {
+    --background: 245, 245, 245;
+    
+    --border: 212, 212, 212;
+    --card: 255, 255, 255;
+    --card-secondary: 250, 250, 250;
+
+    --theme: 191,219,254;
+    --theme-text:70, 70, 70;
+
+    --card-blue: 191,219,254;
+    --card-orange: 254,215,170;
+    --card-red: 254,202,202;
+    --card-yellow: 254,240,138;
+    --card-green: 187,247,208;
+
+    --card-blue-secondary: 181,209,244;
+    --card-orange-secondary: 244,205,160;
+    --card-red-secondary: 244,192,192;
+    --card-yellow-secondary: 244,230,128;
+    --card-green-secondary: 177,237,198;
+
+    --card-blue-border: 171,199,234;
+    --card-orange-border: 234,195,150;
+    --card-red-border: 234,182,182;
+    --card-yellow-border: 234,220,118;
+    --card-green-border: 167,227,188;
+
+    --card-text: 10, 10, 10;
+    --card-text-secondary: 71,85,105;
+
+    --copy-primary: 23, 23, 23;
+    --copy-secondary: 115, 115, 115;
+
+    background: rgba(var(--background));
+}
+
+.dark {
+    --background: 0, 0, 0;
+    
+    --border: 38, 38, 38;
+    --card: 23, 23, 23;
+    --card-secondary: 15, 15, 15;
+
+    --theme: 30,64,175;
+    --theme-text:220, 220, 220;
+
+    --card-blue: 30,58,138;
+    --card-orange: 124,45,18;
+    --card-red: 127,29,29;
+    --card-yellow: 113,63,18;
+    --card-green: 20,83,45;
+
+    --card-blue-secondary: 40,68,148;
+    --card-orange-secondary: 134,55,28;
+    --card-red-secondary: 137,39,39;
+    --card-yellow-secondary: 123,73,28;
+    --card-green-secondary: 30,93,55;
+
+    --card-blue-border: 50,88,168;
+    --card-orange-border: 144,65,48;
+    --card-red-border: 147,49,49;
+    --card-yellow-border: 143,93,48;
+    --card-green-border: 50,113,75;
+
+    --card-text: 200,200,200;
+    --card-text-secondary: 203,213,225;
+
+    --copy-primary: 250, 250, 250;
+    --copy-secondary: 115, 115, 115;
+
+    background: rgba(var(--background));
+}
